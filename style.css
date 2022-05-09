@@ -478,6 +478,10 @@ footer .social-links {
 /*=== RESPONSIVO =================================*/
 @media (min-width: 1024px) {
   /*=== GERAL =================================*/
+  html {
+  scroll-behavior: smooth;
+}
+  
   body {
     overflow: auto;
   }
